@@ -14,7 +14,7 @@ const time = require('@openzeppelin/test-helpers/src/time');
 
 contract('Upstate', accounts => {
     const _name = 'Upstate';
-    const _symbol = 'Up';
+    const _symbol = 'UP';
     const user1 = accounts[1];
     let _supply = 1000;
     const now = new Date();
@@ -24,9 +24,12 @@ contract('Upstate', accounts => {
 
     beforeEach(async function() {
         this.owner = accounts[0];
-        this.token = await Upstate.new(_lesserDate, _greaterDate)
-        this.underToken = await Upstate.new(_lesserDate + 10000, _greaterDate + 100000)
+        this.token = await Upstate.new("Upstate", "UP", _lesserDate, _greaterDate)
+        this.overToken = await Upstate.new("Upstate", "UP", _lesserDate + 10000, _greaterDate + 100000)
+        this.underToken = await Upstate.new("Upstate", "UP", _lesserDate - 10000, _greaterDate - 100000)
+        console.log(await time.latest());
         await time.advanceBlock();
+        console.log(await time.latest());
     });
 
     describe('basic token details', function() {
