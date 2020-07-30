@@ -28,27 +28,27 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"increase\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"value\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Counter.sol\":\"Counter\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Counter.sol\":{\"keccak256\":\"0x85d90d07e688240f698ee14e6497b4b7eb015c0570d4095485e35d80d551a1af\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://01f70e450e6ace4c7096796a9200c1d1db1ee112cfee1d3c2349dbabf9f9090c\",\"dweb:/ipfs/QmSjKAFgG5k2nc79Djf7E9A4SLTbk9aWgFHwnWFpfYsvzX\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060cc8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806330f3f0db1460375780633fa4f245146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686090565b6040518082815260200191505060405180910390f35b80600080828254019250508190555050565b6000548156fea264697066735822122035215145b8aac3f1100f52d7c2f1b94da1ab6ca80bd5408bdbe32b3786c96ef064736f6c634300060c0033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806330f3f0db1460375780633fa4f245146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686090565b6040518082815260200191505060405180910390f35b80600080828254019250508190555050565b6000548156fea264697066735822122035215145b8aac3f1100f52d7c2f1b94da1ab6ca80bd5408bdbe32b3786c96ef064736f6c634300060c0033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"increase\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"value\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/KMD/Desktop/Development/Blockchain/coin/contracts/Counter.sol\":\"Counter\"},\"evmVersion\":\"constantinople\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/KMD/Desktop/Development/Blockchain/coin/contracts/Counter.sol\":{\"keccak256\":\"0x85d90d07e688240f698ee14e6497b4b7eb015c0570d4095485e35d80d551a1af\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://01f70e450e6ace4c7096796a9200c1d1db1ee112cfee1d3c2349dbabf9f9090c\",\"dweb:/ipfs/QmSjKAFgG5k2nc79Djf7E9A4SLTbk9aWgFHwnWFpfYsvzX\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060cc8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806330f3f0db1460375780633fa4f245146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686090565b6040518082815260200191505060405180910390f35b80600080828254019250508190555050565b6000548156fea264697066735822122052f3ad3540728c42f427de11613cb4baaee450764a2b36911e5a6ee9b996452364736f6c634300060c0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806330f3f0db1460375780633fa4f245146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686090565b6040518082815260200191505060405180910390f35b80600080828254019250508190555050565b6000548156fea264697066735822122052f3ad3540728c42f427de11613cb4baaee450764a2b36911e5a6ee9b996452364736f6c634300060c0033",
   "immutableReferences": {},
-  "sourceMap": "84:123:8:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "84:123:8:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;134:71;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;107:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;134:71;192:6;183:5;;:15;;;;;;;;;;;134:71;:::o;107:20::-;;;;:::o",
+  "sourceMap": "84:123:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "84:123:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;134:71;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;107:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;134:71;192:6;183:5;;:15;;;;;;;;;;;134:71;:::o;107:20::-;;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\n// contracts/Counter.sol\npragma solidity >=0.5.0;\n\n\ncontract Counter {\n    uint256 public value;\n\n    function increase(uint256 amount) public {\n      value += amount;\n    }\n}",
-  "sourcePath": "contracts/Counter.sol",
+  "sourcePath": "/Users/KMD/Desktop/Development/Blockchain/coin/contracts/Counter.sol",
   "ast": {
-    "absolutePath": "contracts/Counter.sol",
+    "absolutePath": "/Users/KMD/Desktop/Development/Blockchain/coin/contracts/Counter.sol",
     "exportedSymbols": {
       "Counter": [
-        1161
+        89
       ]
     },
-    "id": 1162,
+    "id": 90,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1148,
+        "id": 76,
         "literals": [
           "solidity",
           ">=",
@@ -56,7 +56,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "57:24:8"
+        "src": "57:24:1"
       },
       {
         "abstract": false,
@@ -65,9 +65,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1161,
+        "id": 89,
         "linearizedBaseContracts": [
-          1161
+          89
         ],
         "name": "Counter",
         "nodeType": "ContractDefinition",
@@ -75,13 +75,13 @@
           {
             "constant": false,
             "functionSelector": "3fa4f245",
-            "id": 1150,
+            "id": 78,
             "mutability": "mutable",
             "name": "value",
             "nodeType": "VariableDeclaration",
             "overrides": null,
-            "scope": 1161,
-            "src": "107:20:8",
+            "scope": 89,
+            "src": "107:20:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -89,10 +89,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 1149,
+              "id": 77,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "107:7:8",
+              "src": "107:7:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -103,26 +103,26 @@
           },
           {
             "body": {
-              "id": 1159,
+              "id": 87,
               "nodeType": "Block",
-              "src": "175:30:8",
+              "src": "175:30:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1157,
+                    "id": 85,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 1155,
+                      "id": 83,
                       "name": "value",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1150,
-                      "src": "183:5:8",
+                      "referencedDeclaration": 78,
+                      "src": "183:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -132,32 +132,32 @@
                     "operator": "+=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1156,
+                      "id": 84,
                       "name": "amount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1152,
-                      "src": "192:6:8",
+                      "referencedDeclaration": 80,
+                      "src": "192:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "183:15:8",
+                    "src": "183:15:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1158,
+                  "id": 86,
                   "nodeType": "ExpressionStatement",
-                  "src": "183:15:8"
+                  "src": "183:15:1"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "30f3f0db",
-            "id": 1160,
+            "id": 88,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -165,18 +165,18 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1153,
+              "id": 81,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1152,
+                  "id": 80,
                   "mutability": "mutable",
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1160,
-                  "src": "152:14:8",
+                  "scope": 88,
+                  "src": "152:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -184,10 +184,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1151,
+                    "id": 79,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "152:7:8",
+                    "src": "152:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -197,40 +197,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "151:16:8"
+              "src": "151:16:1"
             },
             "returnParameters": {
-              "id": 1154,
+              "id": 82,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "175:0:8"
+              "src": "175:0:1"
             },
-            "scope": 1161,
-            "src": "134:71:8",
+            "scope": 89,
+            "src": "134:71:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 1162,
-        "src": "84:123:8"
+        "scope": 90,
+        "src": "84:123:1"
       }
     ],
-    "src": "57:150:8"
+    "src": "57:150:1"
   },
   "legacyAST": {
-    "absolutePath": "contracts/Counter.sol",
+    "absolutePath": "/Users/KMD/Desktop/Development/Blockchain/coin/contracts/Counter.sol",
     "exportedSymbols": {
       "Counter": [
-        1161
+        89
       ]
     },
-    "id": 1162,
+    "id": 90,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1148,
+        "id": 76,
         "literals": [
           "solidity",
           ">=",
@@ -238,7 +238,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "57:24:8"
+        "src": "57:24:1"
       },
       {
         "abstract": false,
@@ -247,9 +247,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 1161,
+        "id": 89,
         "linearizedBaseContracts": [
-          1161
+          89
         ],
         "name": "Counter",
         "nodeType": "ContractDefinition",
@@ -257,13 +257,13 @@
           {
             "constant": false,
             "functionSelector": "3fa4f245",
-            "id": 1150,
+            "id": 78,
             "mutability": "mutable",
             "name": "value",
             "nodeType": "VariableDeclaration",
             "overrides": null,
-            "scope": 1161,
-            "src": "107:20:8",
+            "scope": 89,
+            "src": "107:20:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -271,10 +271,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 1149,
+              "id": 77,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "107:7:8",
+              "src": "107:7:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -285,26 +285,26 @@
           },
           {
             "body": {
-              "id": 1159,
+              "id": 87,
               "nodeType": "Block",
-              "src": "175:30:8",
+              "src": "175:30:1",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 1157,
+                    "id": 85,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 1155,
+                      "id": 83,
                       "name": "value",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1150,
-                      "src": "183:5:8",
+                      "referencedDeclaration": 78,
+                      "src": "183:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -314,32 +314,32 @@
                     "operator": "+=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 1156,
+                      "id": 84,
                       "name": "amount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1152,
-                      "src": "192:6:8",
+                      "referencedDeclaration": 80,
+                      "src": "192:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "183:15:8",
+                    "src": "183:15:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1158,
+                  "id": 86,
                   "nodeType": "ExpressionStatement",
-                  "src": "183:15:8"
+                  "src": "183:15:1"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "30f3f0db",
-            "id": 1160,
+            "id": 88,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -347,18 +347,18 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1153,
+              "id": 81,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1152,
+                  "id": 80,
                   "mutability": "mutable",
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1160,
-                  "src": "152:14:8",
+                  "scope": 88,
+                  "src": "152:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -366,10 +366,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1151,
+                    "id": 79,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "152:7:8",
+                    "src": "152:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -379,26 +379,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "151:16:8"
+              "src": "151:16:1"
             },
             "returnParameters": {
-              "id": 1154,
+              "id": 82,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "175:0:8"
+              "src": "175:0:1"
             },
-            "scope": 1161,
-            "src": "134:71:8",
+            "scope": 89,
+            "src": "134:71:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 1162,
-        "src": "84:123:8"
+        "scope": 90,
+        "src": "84:123:1"
       }
     ],
-    "src": "57:150:8"
+    "src": "57:150:1"
   },
   "compiler": {
     "name": "solc",
@@ -413,7 +413,7 @@
     }
   },
   "schemaVersion": "3.2.2",
-  "updatedAt": "2020-07-27T04:59:50.028Z",
+  "updatedAt": "2020-07-30T05:27:13.457Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

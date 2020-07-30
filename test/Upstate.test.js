@@ -5,19 +5,17 @@ require('chai')
     .use(require('chai-bignumber')(BigNumber))
     .should();
 const {
-    BN, // Big Number support
-    constants, // Common constants, like the zero address and largest integers
-    expectEvent, // Assertions for emitted events
-    expectRevert, // Assertions for transactions that should fail
+    BN,
+    constants,
+    expectEvent,
+    expectRevert,
 } = require('@openzeppelin/test-helpers');
 const time = require('@openzeppelin/test-helpers/src/time');
 
 contract('Upstate', accounts => {
     const _name = 'Upstate';
     const _symbol = 'Up';
-
     const user1 = accounts[1];
-
     let _supply = 1000;
     const now = new Date();
     const secondsSinceEpoch = Math.round(now.getTime() / 1000)
@@ -27,7 +25,7 @@ contract('Upstate', accounts => {
     beforeEach(async function() {
         this.owner = accounts[0];
         this.token = await Upstate.new(_lesserDate, _greaterDate)
-        this.badToken = await Upstate.new(_lesserDate + 10000, _greaterDate - 100000)
+        this.underToken = await Upstate.new(_lesserDate + 10000, _greaterDate + 100000)
         await time.advanceBlock();
     });
 
@@ -67,15 +65,20 @@ contract('Upstate', accounts => {
             recipientBalance.should.be.bignumber.equal(100);
         });
 
-        it('transfer not OK below time bounds', async function() {
-            await this.badToken.increaseAllowance(to, amount);
-            await this.badToken.transfer(to, amount, { from: this.owner })
-            const senderBalance = new BigNumber(await this.token.balanceOf(this.owner))
-            senderBalance.should.be.bignumber.equal(900);
-            const recipientBalance = new BigNumber(await this.token.balanceOf(to))
-            recipientBalance.should.be.bignumber.equal(100);
+        it('transfer fails below time bounds', async function() {
+            await expectRevert(
+                this.underToken.transfer(to, amount, { from: this.owner })
+            );
         });
 
+        it('transfer fails above time bounds', async function() {
+            await expectRevert(
+                this.overToken.transfer(to, amount, { from: this.owner })
+            );
+        });
 
     })
+
+
+    /// should also test transferFrom
 })
