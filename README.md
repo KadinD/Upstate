@@ -9,5 +9,6 @@ the crowdsale code while still using Zeppelin version 3 in node_modules)
 
 ## Notes:
 - node_modules is in .gitignore 
+- currently the contract is initialized with 1000 tokens and the plan is for the ETH donations to be capped
 
 
