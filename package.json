@@ -7,10 +7,19 @@
     "test": "test"
   },
   "dependencies": {
+    "bignumber": "^1.1.0",
+    "bignumber.js": "^9.0.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "mocha": "^8.0.1",
     "openzeppelin-solidity": "^3.1.0",
-    "truffle": "^5.1.35"
+    "truffle": "^5.1.35",
+    "web3": "^1.2.11"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.6"
+  },
   "scripts": {
     "test": "mocha"
   },
