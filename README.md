@@ -1,5 +1,8 @@
 # Upstate Interactive Ethereum Challenge
 
+## Update 8/2/2020
+- After working some more this weekend, I was able to figure out that the startTime and endTime variables are read as 0 always in "beforeTokenTransfer" and after trying to figure out why this is the case and substituting a getter function etc. I have struggled to figure it out and thus regrettably do not have new updates to push and I reverted to this version for now. 
+
 ## Structure:
 
 - The token is contained in Upstate.sol and inherits from the OpenZeppelin basic ERC20 token 
