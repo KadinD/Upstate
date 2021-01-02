@@ -24,6 +24,7 @@ contract Contribution is Crowdsale {
     /// @dev modifies the state of the donationAmounts mapping 
     /// @param beneficiary address of the donor of the ETH
     /// @param weiAmount is the new wei amount donated by this donor, *not* cumulative amount
+    /// test commment 
     function _updatePurchasingState(address beneficiary, uint256 weiAmount) internal override {
         uint256 oldAmount = donationAmounts[beneficiary];
         donationAmounts[beneficiary] = oldAmount + weiAmount;
@@ -37,3 +38,4 @@ contract Contribution is Crowdsale {
     }
 
 }
+
